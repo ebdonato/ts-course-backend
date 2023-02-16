@@ -1,0 +1,9 @@
+@baseUrl=http://localhost:3000
+
+###
+# @name health
+GET {{baseUrl}}/
+
+###
+# @name tasks
+GET {{baseUrl}}/tasks
